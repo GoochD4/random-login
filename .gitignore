@@ -6,5 +6,4 @@
 *.csv
 *.pem
 *.lock.hcl
-passwords.txt
 
