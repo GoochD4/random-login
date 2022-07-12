@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd $(dirname $0)
 i="1"
 
 while [ $i -lt 200000 ]
