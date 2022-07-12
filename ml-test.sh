@@ -2,7 +2,7 @@
 cd $(dirname $0)
 i="1"
 
-while [ $i -lt 200000 ]
+while [ $i -lt 100 ]
 do
   echo $i
   name=$(sort -R names.txt | head -n1)
